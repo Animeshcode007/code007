@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    display: inline-block;
+    color: #F6F1EE;
+}
+.list{
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    z-index: 10;
+}
+.icon{
+    padding-left: 3rem;
+    z-index: 10;
+}
+.home{
+    padding-right: 13px;
+}
+.about{
+    padding-right: 17px;
+}
+.list li:hover{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #ED7D31;
+}
+.container{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+}
+.mainbody{
+    background-color: rgb(178, 144, 144);
+    height: 26rem;
+}
+.maintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 67px;
+    font-size: 48px;
+    position: relative;
+    bottom: 420px;
+    color: white;
+}
+.roomimg{
+    width: 96rem;
+    height: 26rem;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 67px;
+    font-size: 17px;
+    bottom: 516px;
+    right: 38px;
+    position: relative;
+    color: rgb(247, 2, 255);
+}
+.secondtitle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 256px;
+    font-size: 40px;
+    border: 2px solid rgb(170, 170, 170);
+}
+.card1{
+    border: 1px solid black;
+    width: 29rem;
+    height: 23rem;
+    position: relative;
+    bottom: 185px;
+    left: 103px;
+}
+.card2{
+    border: 1px solid black;
+    width: 29rem;
+    height: 23rem;
+    position: relative;
+    bottom: 185px;
+    left: -99px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card1_img{
+    height: 19rem;
+    width: 462px;
+}
+.card2_img{
+    height: 19rem;
+    width: 462px;   
+}
+.card1_title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.card2_title{
+    display: flex;
+    justify-content: center;
+    font-size: 39px;
+}
+.card1_links{
+    text-decoration: none;
+}
+.card2_links{
+    text-decoration: none;
+}
+.card1:hover .card1_title{
+    font-size: 50px;
+}
+.card2:hover .card2_title{
+    font-size: 45px;
+}
+.thirdtitle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 124px;
+    font-size: 28px;
+}
+footer{
+    background-color: #5f3535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 731px;
+    height: 4rem;
+    font-size: 26px;
+}
+@media (max-width:1134px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        position: relative;
+        top: 1051px;
+    }
+}
+
+
+
